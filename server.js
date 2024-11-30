@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer");
 const { text } = require('body-parser');
 const { error } = require('console');
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 5000;
 
 // Middleweare
 app.use(express.static('assets'));
