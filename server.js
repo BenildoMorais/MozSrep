@@ -18,8 +18,8 @@ app.get('/', (req, res)=> {
 })
 
 app.post('/', (req, res)=>{
-    //console.log(req.body);
-    //res.send('success');
+    console.log(req.body);
+   // res.send('success');
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
